@@ -1,0 +1,74 @@
+======Projektový seminář 1======
+V rámci předmětů Projektový seminář 1 a 2 student implementuje variantu deskové hry podle níže uvedených požadavků.
+
+Každý student je povinen se zapsat k některému z vedoucích, a to nejpozději do 24. října 2014.
+Studenti, kteří se nezapíší do uvedeného data, budou přiděleni vedoucím projektového týmu.
+Konkrétní průběh řešení a průběžné požadavky na hodnocení stanoví jednotliví vedoucí v souladu s požadavky na projekt.
+
+Hry a vedoucí :
+  * Africká dáma – Jiří Zacpal (maximálně 5 studentů), Markéta Trnečková (maximálně 2 studenti);
+  * Larunculi – Arnošt Večerka (maximálně 5 studentů), Jan Outrata (maximálně 2 studenti);
+  * Tablut – Tomáš Kühr (maximálně 5 studentů), Petr Krajča (maximálně 2 studenti).
+
+Rámcové požadavky na projekt v zimním semestru:
+
+  * korektní implementace pravidel hry (nemožnost provést tah odporující pravidlům, správné ukončení hry a podobně);
+  * funkční verze algoritmu realizujícího herní strategii;
+  * možnost hry dvou lidí, člověka proti „počítači“, a „počítače“ proti „počítači“;
+  * na grafické uživatelské rozhraní nejsou kladeny požadavky (program může běžet v textové konzoli);
+  * práce se soubory (v zimním semestru nepovinná, avšak doporučená). 
+
+Přesné podmínky si stanoví jednotliví vedoucí v souladu výše uvedenými rámcovými požadavky.
+
+Požadavky na projekt:
+  * korektní implementace pravidel hry (nemožnost provést tah odporující pravidlům, správné ukončení hry a podobně);
+  * algoritmy pro herní strategii, nastavitelná obtížnost hry v adekvátním rozsahu (zvlášť pro každého počítačového hráče);
+  * možnost hry dvou lidí, člověka proti „počítači“, a „počítače“ proti „počítači“;
+  * možnost nastavit a kdykoliv změnit obtížnost i v průběhu hry;
+  * možnost kdykoliv zaměnit počítačového a lidského hráče (bez ohledu na to, je-li hráčem člověk nebo počítač, změna i v průběhu hry);
+  * nápověda „nejlepšího tahu“;
+  * ukládání a načítání (ukončených i rozehraných) partií;
+  * undo/redo tahů do libovolné úrovně;
+  * prohlížení historie tahů (přehledné zobrazení provedených tahů);
+  * robustnost (program musí reagovat správně na nesprávné uživatelské vstupy, zejména ovládání, vadný formát nebo obsah souboru apod., aplikace nesmí havarovat);
+  * vestavěná nápověda;
+  * grafické uživatelské rozhraní (GUI) zpracované podle standardů;
+  * program ve spustitelné formě, je-li to pro zprovoznění aplikace nutné pak také instalátor (v odůvodněných případech je přípustná spustitelnost z vývojového prostředí);
+  * kompletní zdrojové kódy programu včetně dalších částí nutných pro sestavení aplikace;
+  * programátorská dokumentace k projektu vytvořená podle doporučeného stylu (PDF). Obsahuje zejména popis struktury kódu, algoritmy hry včetně herní strategie, postup pro sestavení aplikace. Dokumentace nemusí obsahovat uživatelskou příručku. 
+
+V případě nejasností ohledně zadání projektů kontaktujte svého vedoucího nebo vedoucího projektového týmu Tomáše Kühra.
+Plán přednášek v kombinovaném studiu:
+
+ * 10. 10. Kühr (organizační záležitosti k předmětu, zadání)
+ * 24. 10. Kühr (algoritmy, herní strategie) – učební text, prezentace
+ * 7. 11.  Outrata (implementace, práce se soubory)
+ * 28. 11. Krajča (unit testy)
+ * 12. 12. Krupka (výjimky)
+Požadavky na studenta
+znalost algoritmizace, zvládnutí programovacího jazyka a vývojového prostředí pro implementaci projektu, zvládnutí problematiky tvorby software
+
+
+======Obsah======
+Studenti rozšíří a aplikují své dosavadní znalosti o tvorbě software a implementují stolní deskovou hru podle zadání, zpracují kompletní uživatelskou a programátorskou dokumentaci.
+
+  * 1. Softwarové projekty: úvod do problematiky, specifikace variant zadání projektů, požadavky na softwarovou aplikaci
+
+  * 2. Algoritmy deskových her: počítač jako hráč, [[cs>Minimax_(algoritmus)|Minimax algoritmus]], algoritmus [[cs>Alfa-beta_ořezávání|Alfa-Beta prořezávání]]
+
+  * 3. Základy tvorby software: softwarové inženýrství, plánovité techniky tvorby softwaru a agilní techniky tvorby softwaru
+
+  * 4. Analýza a návrh softwaru: postupy, techniky analýzy a návrhu, prezentace a srování modelových řešení vybraného projektu
+
+  * 5. Nástroje pro podporu vývoje: ladění programu, dokumentace projektu
+
+  * 6. Programování v OS Windows: principy a technologie, událostmi řízené aplikace, časovače
+
+  * 7. Programování v OS [[cs>GNU]]/[[cs>Linux]]: principy a technologie, událostmi řízené aplikace, vlákna, přehled nástrojů pro vývoj 
+
+======Literatura======
+  * Matthew, N., Stones, R. a kol. Linux - Programujeme profesionálně. Computer Press, 2000. [[isbn>80-7226-717-5]]
+  * Robbins, J. Debugging Applications for Microsoft .NET and Microsoft Windows. Microsoft Press, 2003. [[isbn>0-7356-1536-5]]
+  * McConnell, S. Dokonalý kód. Computer Press, 2005. [[isbn>80-251-0849-X]]
+  * Petzold, C. Programming Windows, 5th ed.. Microsoft Press, 1998. [[isbn>1-57231-995-X]]
+  * Steinwender, D., Friedel, F. Šachy na PC. Unis Publishing, 1996. 
